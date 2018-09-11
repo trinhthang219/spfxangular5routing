@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "21e6e37b-9cb5-40d7-83d3-f09199970405",
+  "alias": "CustomerManagementWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "safeWithCustomScriptDisabled": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "21e6e37b-9cb5-40d7-83d3-f09199970405",
+    "group": { "default": "Xspera Framework" },
+    "title": { "default": "Xspera Customer Management" },
+    "description": { "default": "Xspera Customer Management WebPart using SharePoint Framework" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Xspera Customer Management WebPart using SharePoint Framework"
+    }
+  }]
+}

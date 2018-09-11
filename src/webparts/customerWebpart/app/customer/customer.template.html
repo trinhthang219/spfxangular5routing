@@ -1,0 +1,11 @@
+<h1>Customer Component</h1>
+<span>{{ title }}</span>
+<list></list>
+<a routerLink="/"class="link link1">Main Home</a>
+<a routerLink="/customer" class="link">customer</a>
+<a routerLink="/customerdetail" class="link">customer detail</a>
+
+<div *ngFor="let cus of customer">
+    <h2>{{cus.CompanyName}}</h2>
+    <h1>{{cus.ContactName}}</h1>
+</div>
